@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "outDir": "./build/",
+    "module": "es6",
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "locale": "en",
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importHelpers": true
+  },
+  "include": [
+      "./src/**/*", "src/global.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".npm",
+    "build",
+    "jest"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "statistics",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch --progress --display-error-details --config webpack/config.js --mode=development"
+  },
+  "author": "Igor «InoY» Zvaygintsev <i.zvyagintsev@rambler-co.ru> (https://rambler-co.ru)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@teamsupercell/typings-for-css-modules-loader": "^2.1.0",
+    "@types/react": "^16.9.6",
+    "@types/react-dom": "^16.9.2",
+    "css-loader": "^3.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-notifier-2": "^2.0.5"
+  }
+}
